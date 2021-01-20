@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(30, 255, 0);
+    margin-left: 150px;
+    margin-top: 150px;
+    transition-duration: 2s ;
+  
+}
+.caja:hover{
+  /*  transform: scale(2);*/
+  transform:rotate(45deg) scale(2);
+}

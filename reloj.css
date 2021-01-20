@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 150px;
+    margin-left: 150px;
+    border-radius: 100%;
+    z-index: 999;
+}
+
+.aguja{
+ width: 80px;
+ height: 10px;
+ background-color: crimson;
+ transition: 1s;
+ margin-top: -100px;
+ margin-left: 250px;
+ transform-origin:left;
+}
+.aguja:hover{
+    transform: rotate(360deg);
+    transform-origin:left;
+
+}

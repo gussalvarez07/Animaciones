@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    animation-name: cajaTraslada;
+    width: 75px;
+    height: 75px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+@keyframes cajaTraslada{
+   
+}
+.caja:hover{
+    transform:rotate(45deg) scale(2);
+}
+
